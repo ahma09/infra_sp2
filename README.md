@@ -27,11 +27,8 @@ docker-compose exec web python manage.py createsuperuser
 -раздача статики
 docker-compose exec web python manage.py collectstatic --no-input 
 
-- войдите в админку, создайте одну-две записи объектов.
-
-
-
-
+- команда для заполнения базы данных.
+docker-compose exec web python manage.py loaddata fixtures.json
 
 ## Стек технологий:
 ```

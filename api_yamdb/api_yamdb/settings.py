@@ -18,9 +18,9 @@ MAX_SCORE = 10
 EMAIL_LEN = 254
 ROLE_LEN = 30
 
-SECRET_KEY = 'd#f0)wz*!o&ct+w4^ww^=-kig7ic062u4f4)#raxh&b8cmv*ge'
-'''SECRET_KEY = ((os.getenv('SECRET_KEY'))
-              or sys.exit('SECRET_KEY не обнаружен'))'''
+
+SECRET_KEY = ((os.getenv('SECRET_KEY'))
+              or sys.exit('SECRET_KEY не обнаружен'))
 
 DEBUG = False
 
