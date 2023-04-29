@@ -34,4 +34,4 @@ Nginx
 Gunicorn
 ```
 ### Автор
-[Ahmed](https://github.com/ahma09)
+[Ахмед Джанкетов](https://github.com/ahma09)
